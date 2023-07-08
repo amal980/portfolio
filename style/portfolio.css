@@ -79,10 +79,21 @@ nav a{
     color: #474747;
 }
 /* main section styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .aboute{
     padding: 130px;
     background-color: #fff8f3;
     margin: 130px 0px;
+}
+.about-info-conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
